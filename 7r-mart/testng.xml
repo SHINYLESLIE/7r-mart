@@ -10,59 +10,19 @@
 
 
 			<!-- <class name="testscripts.AdminUsersTest">
-<methods>
-	<include name="verifyIfNewAdminUserCanBeAddedWithValidCredentials"></include>
-</methods>
-</class>
-
 <class name="testscripts.ManageNewsTest">
-<methods>
-	<include name="verifyThatUserCanCreateNewsSuccessfully"></include>
-</methods>
-</class> 
-
 <class name="testscripts.ManageContactTest">
-<methods>
-	<include name="verifyThatAdminCanEditManageContactDetails"></include>
-	<exclude name="checkWhetherUpdateButtonIsEnabled"></exclude>
-</methods>
-</class>
-
 <class name="testscripts.SubCategoryTest">
-<methods>
-	<include name="verifyThatTheAdminCanAddProduct"></include>
-</methods>
-</class>
-
 <class name="testscripts.ManageFooterTextTest">
-<methods>
-	<include name="verifyThatAdminCanEditTheDetails"></include>
-	<exclude name="checkWhetherUpdateButtonIsPresent"></exclude>
-</methods>
-</class>
-
 <class name="testscripts.LoginTest">
-<methods>
-	<include name="verifyIfTheAdminCanLoginWithValidCredentials1"></include>
-	<exclude name="verifyTheUserIsAbleToLoginUsingInvalidCredentials2"></exclude>
-	<include name="verifyTheUserIsAbleToLoginUsingInvalidCredentials3"></include>
-	<exclude name="verifyTheUserIsAbleToLoginUsingInvalidCredentials4"></exclude>
-</methods>
-</class>
-
 <class name="testscripts.ManageProductTest">
-<methods>
-	<include name="checkThatAdminCanDeleteAProduct"></include>
-</methods>
-</class>
+
 -->
 			<class name="testscripts.LogoutTest">
 				<methods>
 					<include name="checkWhetherAdminCanLogoutSuccessfully"></include>
 				</methods>
 			</class>
-
-
 		</classes>
 	</test> <!--
 	Test -->

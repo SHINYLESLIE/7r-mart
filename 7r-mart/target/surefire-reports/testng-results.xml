@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-27T14:36:19 IST" name="Suite" finished-at="2025-02-27T14:36:33 IST" duration-ms="14419">
+  <suite started-at="2025-02-27T23:49:25 IST" name="Suite" finished-at="2025-02-27T23:49:39 IST" duration-ms="13856">
     <groups>
     </groups>
-    <test started-at="2025-02-27T14:36:19 IST" name="Test" finished-at="2025-02-27T14:36:33 IST" duration-ms="14419">
+    <test started-at="2025-02-27T23:49:25 IST" name="Test" finished-at="2025-02-27T23:49:39 IST" duration-ms="13856">
       <class name="testscripts.LogoutTest">
-        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testscripts.LogoutTest@470734c3]" started-at="2025-02-27T14:36:19 IST" name="initializeBrowser" finished-at="2025-02-27T14:36:29 IST" duration-ms="10175" status="PASS">
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testscripts.LogoutTest@470734c3]" started-at="2025-02-27T23:49:25 IST" name="initializeBrowser" finished-at="2025-02-27T23:49:35 IST" duration-ms="9565" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method signature="checkWhetherAdminCanLogoutSuccessfully()[pri:0, instance:testscripts.LogoutTest@470734c3]" started-at="2025-02-27T14:36:29 IST" name="checkWhetherAdminCanLogoutSuccessfully" description="TEST FOR CHECKING WHETHER THE ADMIN CAN LOGOUT SUCCESSFULLY" finished-at="2025-02-27T14:36:33 IST" duration-ms="4173" status="PASS">
+        <test-method signature="checkWhetherAdminCanLogoutSuccessfully()[pri:0, instance:testscripts.LogoutTest@470734c3]" started-at="2025-02-27T23:49:35 IST" name="checkWhetherAdminCanLogoutSuccessfully" description="TEST FOR CHECKING WHETHER THE ADMIN CAN LOGOUT SUCCESSFULLY" finished-at="2025-02-27T23:49:39 IST" duration-ms="4235" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkWhetherAdminCanLogoutSuccessfully -->
-        <test-method is-config="true" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:testscripts.LogoutTest@470734c3]" started-at="2025-02-27T14:36:33 IST" name="browserQuit" finished-at="2025-02-27T14:36:33 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:testscripts.LogoutTest@470734c3]" started-at="2025-02-27T23:49:39 IST" name="browserQuit" finished-at="2025-02-27T23:49:39 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
