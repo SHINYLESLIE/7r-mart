@@ -26,4 +26,15 @@ public class WaitUtility {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(EXPLICIT_WAIT));
 		wait.until(ExpectedConditions.elementSelectionStateToBe(element, true));
 	}
+
+	public void waut(WebDriver driver, WebElement element) {
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(EXPLICIT_WAIT));
+		wait.until(ExpectedConditions.jsReturnsValue(toString()));
+	}
+
+	public void waitForFrameToBeAvailable(WebDriver driver, WebElement element) {
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(EXPLICIT_WAIT));
+		wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(element));
+	}
+
 }
