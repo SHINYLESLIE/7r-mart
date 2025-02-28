@@ -12,7 +12,7 @@ import utilities.ExcelUtility;
 
 public class LogoutTest extends Base {
 
-	@Test(retryAnalyzer=retry.Retry.class,description="TEST FOR CHECKING WHETHER THE ADMIN CAN LOGOUT SUCCESSFULLY")
+	@Test(description="TEST FOR CHECKING WHETHER THE ADMIN CAN LOGOUT SUCCESSFULLY")
 	public void checkWhetherAdminCanLogoutSuccessfully() throws IOException
 
 	{

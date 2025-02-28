@@ -11,7 +11,7 @@ import utilities.ExcelUtility;
 
 public class ManageFooterTextTest extends Base {
 
-	@Test(description= "Testing Whether Admin Can Edit Details In ManageFooterText Page")
+	@Test(retryAnalyzer=retry.Retry.class,description= "Testing Whether Admin Can Edit Details In ManageFooterText Page")
 	public void verifyThatAdminCanEditTheDetails() throws IOException {
 		String usernamevalue = ExcelUtility.getStringData(1, 0, "Login_Page");
 		String passwordvalue = ExcelUtility.getStringData(1, 1, "Login_Page");
