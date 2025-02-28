@@ -62,7 +62,7 @@ public class Base {
 			scrshot.getScreenshot(driver, iTestResult.getName());
 		}
 		/*
-		 * public void quitAndClose() { driver.quit(); //driver.close(); } }
+		 public void quitAndClose() { driver.quit(); //driver.close(); } }
 		 */
 	}
 }
