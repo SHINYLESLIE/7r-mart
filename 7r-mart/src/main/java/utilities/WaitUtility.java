@@ -27,7 +27,7 @@ public class WaitUtility {
 		wait.until(ExpectedConditions.elementSelectionStateToBe(element, true));
 	}
 
-	public void waut(WebDriver driver, WebElement element) {
+	public void waitReturnValue(WebDriver driver, WebElement element) {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(EXPLICIT_WAIT));
 		wait.until(ExpectedConditions.jsReturnsValue(toString()));
 	}
